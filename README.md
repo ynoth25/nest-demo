@@ -71,3 +71,20 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+
+Install TypeOrm and extension
+    npm install typeorm mysql2 typeorm-extension
+    Setup Data Source (data-source.ts)
+        
+    Create directories (Migrations, Factories, Seeders)
+    #Create migration
+        typeorm migration:create ./src/database/migrations/*(Entity Name)
+    #Run migration
+        npx typeorm-ts-node-commonjs migration:run -d ./src/data-source.ts
+        npx typeorm-ts-node-commonjs migration:revert -d ./src/data-source.ts
+
+    #Run Seeder
+        ts-node src/database/seeds/main.seeder.ts
+
