@@ -32,7 +32,8 @@ describe('TranslatorService', () => {
                                                     return this;
                                                 }),
                                                 getQueryAndParameters: jest.fn(function () {
-                                                    const tableName = this.metadata.tableName || 'mock_table';
+                                                    const schema = this.metadata.schema || null;
+                                                    const tableName = `${schema}.${this.metadata.tableName}` || 'mock_table';
                                                     const primaryColumn = this.metadata.primaryColumns[0].propertyName;
                                                     const ids = this.condition.match(/\((.*?)\)/)[1].split(',').map(id => id.trim().replace(/'/g, ''));
 
@@ -66,31 +67,33 @@ describe('TranslatorService', () => {
     });
 
     it('should generate correct SQL script for US language with dynamic table name', () => {
-        const mockEntity = {
+        const mockCustomerCaseEntity = {
             metadata: {
-                tableName: 'us_table',
-                primaryColumns: [{ propertyName: 'TRANSLATION_ID' }],
+                schema: 'CUSTOMER',
+                tableName: 'CUSTOMER_CASE',
+                primaryColumns: [{ propertyName: 'CUSTOMER_CASE_ID' }],
             },
         };
-        const sql = translatorService.translate('us', 'us', mockEntity, { column1: 'value1' }, ['1', '2', '3']);
-        expect(sql).toBe("UPDATE us_table SET BULK_UPDATED_DATE = SYSDATE, column1 = 'value1' WHERE TRANSLATION_ID IN ('1', '2', '3')");
+        const sql = translatorService.translate('us', 'us', mockCustomerCaseEntity, { column1: 'value1' }, ['1', '2', '3']);
+        expect(sql).toBe("UPDATE CUSTOMER.CUSTOMER_CASE SET BULK_UPDATED_DATE = SYSDATE, column1 = 'value1' WHERE CUSTOMER_CASE_ID IN ('1', '2', '3')");
     });
 
     it('should generate correct SQL script for Russian language with dynamic table name', () => {
         const mockEntity = {
             metadata: {
+                schema: 'rus',
                 tableName: 'rus_table',
                 primaryColumns: [{ propertyName: 'TRANSLATION_ID' }],
             },
         };
         const sql = translatorService.translate('rus', 'rus', mockEntity, { column1: 'value1' }, ['4', '5']);
-        expect(sql).toBe("UPDATE rus_table SET BULK_UPDATED_DATE = SYSDATE, column1 = 'value1' WHERE TRANSLATION_ID IN ('4', '5')");
+        expect(sql).toBe("UPDATE rus.rus_table SET BULK_UPDATED_DATE = SYSDATE, column1 = 'value1' WHERE TRANSLATION_ID IN ('4', '5')");
     });
 
     it('should generate dynamic SQL scripts for different entities', () => {
         const entities = [
-            { language: 'us', entity: { metadata: { tableName: 'entity1_table', primaryColumns: [{ propertyName: 'TRANSLATION_ID' }] } }, updateValues: { column1: 'value1' }, parameters: ['1', '2', '3'], expected: "UPDATE entity1_table SET BULK_UPDATED_DATE = SYSDATE, column1 = 'value1' WHERE TRANSLATION_ID IN ('1', '2', '3')" },
-            { language: 'rus', entity: { metadata: { tableName: 'entity2_table', primaryColumns: [{ propertyName: 'TRANSLATION_ID' }] } }, updateValues: { column2: 'value2' }, parameters: ['4', '5'], expected: "UPDATE entity2_table SET BULK_UPDATED_DATE = SYSDATE, column2 = 'value2' WHERE TRANSLATION_ID IN ('4', '5')" },
+            { language: 'us', entity: { metadata: { schema: 'us', tableName: 'entity1_table', primaryColumns: [{ propertyName: 'TRANSLATION_ID' }] } }, updateValues: { column1: 'value1' }, parameters: ['1', '2', '3'], expected: "UPDATE us.entity1_table SET BULK_UPDATED_DATE = SYSDATE, column1 = 'value1' WHERE TRANSLATION_ID IN ('1', '2', '3')" },
+            { language: 'rus', entity: { metadata: { schema: 'rus', tableName: 'entity2_table', primaryColumns: [{ propertyName: 'TRANSLATION_ID' }] } }, updateValues: { column2: 'value2' }, parameters: ['4', '5'], expected: "UPDATE rus.entity2_table SET BULK_UPDATED_DATE = SYSDATE, column2 = 'value2' WHERE TRANSLATION_ID IN ('4', '5')" },
             // Add more cases as needed
         ];
 
