@@ -5,12 +5,10 @@ import * as request from 'supertest';
 import { TranslatorService } from './translator.service';
 import { TranslatorController } from './translator.controller';
 import { TranslatorEntity } from './entities/translator.entity';
-import { CustomerCaseEntity } from './entities/customer-case.entity';
 import { TranslateUtil } from '../utils/translate.util';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { DatasourceService } from './datasource.service';
 import { TranslatorRepository } from '../repository/translator.repository';
-import { join } from 'path';
 
 describe('UserController Integration', () => {
   let app: INestApplication;
