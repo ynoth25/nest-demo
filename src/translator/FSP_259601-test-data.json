@@ -1,0 +1,520 @@
+{
+  "failedSR": [
+    {
+      "CUSTOMER_CASE_ID": "1AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "WORKING",
+      "CUSTOMER_CASE_NBR": "111112222233333",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "1BAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "FAILED",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1SSSSSSSSSSSSSSSSSSSSS",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E05SDSDSD30100007FA23BSDSDSDSDSD",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    },
+    {
+      "CUSTOMER_CASE_ID": "2AAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "CMPLTD",
+      "CUSTOMER_CASE_NBR": "22222333333444444",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "2BAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "FAILED",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1EF57781AD9F0B418B357B8E7C0AC3D9",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E0530100007FA23B",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    }
+  ],
+  "voidSR": [
+    {
+      "CUSTOMER_CASE_ID": "1AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "WORKING",
+      "CUSTOMER_CASE_NBR": "VOID11111111111111222222",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "1BAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "VOID",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1SSSSSSSSSSSSSSSSSSSSS",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E05SDSDSD30100007FA23BSDSDSDSDSD",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    }
+  ],
+  "pendingVoidSR": [
+    {
+      "CUSTOMER_CASE_ID": "1SAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "WORKING",
+      "CUSTOMER_CASE_NBR": "PND11111111111111111111",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "SR1SAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "PNDVOID",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1SSSSSSSSSSSSSSSSSSSSS",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E05SDSDSD30100007FA23BSDSDSDSDSD",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        },
+        {
+          "SERVICE_REQUEST_ID": "SR2SAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "CMPLTD",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1SSSSSSSSSSSSSSSSSSSSS",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E05SDSDSD30100007FA23BSDSDSDSDSD",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    },
+    {
+      "CUSTOMER_CASE_ID": "1SSAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "CMPLTD",
+      "CUSTOMER_CASE_NBR": "PND222222222222222222",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "SR1SSAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "PNDVOID",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1SSSSSSSSSSSSSSSSSSSSS",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E05SDSDSD30100007FA23BSDSDSDSDSD",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    }
+  ],
+  "unsuccessfulSR": [
+    {
+      "CUSTOMER_CASE_ID": "UNSUC1AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "WORKING",
+      "CUSTOMER_CASE_NBR": "UNSUC-CASE11111",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "1BAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "UNSUC",
+          "serviceOrders": [
+            {
+              "SERVICE_ORDER_ID": "1EF577837E7902B1B037FDE3EED1724B",
+              "SERVICE_ORDER_STATUS_CODE": "CMPLTD",
+              "SERVICE_ORDER_TYPE_CODE": "CIS",
+              "ASSET_ID": "1EF57781AD9F0B418B357B8SDSDE7C0AC3DSDSDD9SDSDSDS",
+              "SERVICE_ORDER_NBR": "3040013351",
+              "serviceOrderLines": [
+                {
+                  "SERVICE_ORDER_LINE_ID": "1EF577837E7B09C1B037FDE3EED1724B",
+                  "SERVICE_ORDER_LINE_STATUS_CODE": "CMPLTD",
+                  "QUANTITY": 1,
+                  "ACTIVE_IND": "Y",
+                  "VENDOR_ASSET_SKU_NBR": null,
+                  "SERVICE_ORDER_LINE_TYPE_CODE": "PHN",
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-10T16:25:31.756Z",
+                  "UPDATED_BY": "Web",
+                  "UPDATED_DATE": "2024-08-13T12:24:37.776Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-11"
+                }
+              ]
+            }
+          ],
+          "chargeOrders": [
+            {
+              "CHARGE_ORDER_ID": "026700397AA245EBB97CB6C70455BC25",
+              "CHARGE_ORDER_STATUS_CODE": "CHRGD",
+              "chargeOrderLines": [
+                {
+                  "CHARGE_ORDER_LINE_ID": "140833DDCD804A69B57269EFDDB2ED8B",
+                  "CHARGE_ORDER_LINE_STATUS_CODE": "CHRGD",
+                  "CHARGE_ORDER_LINE_TYPE_CODE": "SERVICEFEE",
+                  "FEE_AMOUNT": 0,
+                  "TAX_AMOUNT": 0,
+                  "TOTAL_AMOUNT": 0,
+                  "CANCELLATION_REASON_CODE": null,
+                  "CANCELLATION_SUB_REASON_CODE": null,
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-10T16:25:36.114Z",
+                  "UPDATED_BY": "Web",
+                  "UPDATED_DATE": "2024-08-13T12:24:37.775Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-11"
+                }
+              ]
+            }
+          ],
+          "shippingOrders": [
+            {
+              "SHIPPING_ORDER_ID": "1EF57783807C04E1B037FDE3EED1724B",
+              "SHIPPING_STATUS_CODE": "CMPLTD"
+            }
+          ],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1SSSSSSSSSSSSSSSSSSSSS",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E05SDSDSD30100007FA23BSDSDSDSDSD",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    },
+    {
+      "CUSTOMER_CASE_ID": "2AAAAAAAAAAAAAAAAAAAAAA",
+      "CUSTOMER_CASE_STATUS_CODE": "CMPLTD",
+      "CUSTOMER_CASE_NBR": "UNSUC-CASE2222222222",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "2BAAAAAAAAAAAAAAAAAAAAA",
+          "SERVICE_REQUEST_STATUS_CODE": "UNSUC",
+          "serviceOrders": [],
+          "chargeOrders": [],
+          "shippingOrders": [],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1EF57781AD9F0B418B357B8E7C0AC3D9",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E0530100007FA23B",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    }
+  ],
+  "unCancelledOSR": [
+    {
+      "CUSTOMER_CASE_ID": "UNCANCELLED1BBBBBBBBBBBBBBBBBBBBBB",
+      "CUSTOMER_CASE_STATUS_CODE": "WORKING",
+      "CUSTOMER_CASE_NBR": "UNCANCELLEDCASE11111111111111111",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "2BBBBBBBBBBBBBBBBBBBBBB",
+          "SERVICE_REQUEST_STATUS_CODE": "WORKNG",
+          "serviceOrders": [
+            {
+              "SERVICE_ORDER_ID": "1EF577837E7902B1B037FDE3EED1724Bss",
+              "SERVICE_ORDER_STATUS_CODE": "CANCELLED",
+              "SERVICE_ORDER_TYPE_CODE": "CIS",
+              "ASSET_ID": "1EF57781AD9F0B418B357B8SDSDE7C0AC3DSDSDD9SDSDSDS",
+              "SERVICE_ORDER_NBR": "3040013351",
+              "serviceOrderLines": [
+                {
+                  "SERVICE_ORDER_LINE_ID": "1EF577837E7B09C1B037FDE3EED1724B",
+                  "SERVICE_ORDER_LINE_STATUS_CODE": "CANCELLED",
+                  "QUANTITY": 1,
+                  "ACTIVE_IND": "Y",
+                  "VENDOR_ASSET_SKU_NBR": null,
+                  "SERVICE_ORDER_LINE_TYPE_CODE": "PHN",
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-10T16:25:31.756Z",
+                  "UPDATED_BY": "Web",
+                  "UPDATED_DATE": "2024-08-13T12:24:37.776Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-11"
+                }
+              ]
+            },
+            {
+              "SERVICE_ORDER_ID": "1EF59B28D84D0C00986685ASDD4E7672656DSAD",
+              "SERVICE_ORDER_STATUS_CODE": "NEW",
+              "SERVICE_ORDER_TYPE_CODE": "OSR",
+              "ASSET_ID": "1EF57781AD9F0B418B357B8E7C0AC3D9",
+              "SERVICE_ORDER_NBR": "3040053185",
+              "serviceOrderLines": [
+                {
+                  "SERVICE_ORDER_LINE_ID": "1EF59B28D84D0C02986685D4E7672656",
+                  "SERVICE_ORDER_LINE_STATUS_CODE": "NEW",
+                  "QUANTITY": 1,
+                  "ACTIVE_IND": "Y",
+                  "VENDOR_ASSET_SKU_NBR": null,
+                  "SERVICE_ORDER_LINE_TYPE_CODE": "PHN",
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-13T12:28:08.525Z",
+                  "UPDATED_BY": "Web",
+                  "UPDATED_DATE": "2024-08-13T12:30:56.575Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-13"
+                }
+              ]
+            }
+          ],
+          "chargeOrders": [
+            {
+              "CHARGE_ORDER_ID": "026700397AA245EBB97CB6C70455BC25",
+              "CHARGE_ORDER_STATUS_CODE": "CNCL",
+              "chargeOrderLines": [
+                {
+                  "CHARGE_ORDER_LINE_ID": "140833DDCD804A69B57269EFDDB2ED8B",
+                  "CHARGE_ORDER_LINE_STATUS_CODE": "CNCL",
+                  "CHARGE_ORDER_LINE_TYPE_CODE": "SERVICEFEE",
+                  "FEE_AMOUNT": 0,
+                  "TAX_AMOUNT": 0,
+                  "TOTAL_AMOUNT": 0,
+                  "CANCELLATION_REASON_CODE": null,
+                  "CANCELLATION_SUB_REASON_CODE": null,
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-10T16:25:36.114Z",
+                  "UPDATED_BY": "Web",
+                  "UPDATED_DATE": "2024-08-13T12:24:37.775Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-11"
+                }
+              ]
+            },
+            {
+              "CHARGE_ORDER_ID": "BBD91D3F196546A2A68D856A427BEDA1",
+              "CHARGE_ORDER_STATUS_CODE": "NCR",
+              "chargeOrderLines": [
+                {
+                  "CHARGE_ORDER_LINE_ID": "6939670F2B5448078837CA3F1E531A51",
+                  "CHARGE_ORDER_LINE_STATUS_CODE": "NCR",
+                  "CHARGE_ORDER_LINE_TYPE_CODE": "SERVICEFEE",
+                  "FEE_AMOUNT": 0,
+                  "TAX_AMOUNT": 0,
+                  "TOTAL_AMOUNT": 0,
+                  "CANCELLATION_REASON_CODE": null,
+                  "CANCELLATION_SUB_REASON_CODE": null,
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-13T12:30:57.712Z",
+                  "UPDATED_BY": "Node Application",
+                  "UPDATED_DATE": "2024-08-13T12:31:51.692Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-13"
+                }
+              ]
+            }
+          ],
+          "shippingOrders": [
+            {
+              "SHIPPING_ORDER_ID": "1EF57783807C04E1B037FDE3EED1724B",
+              "SHIPPING_STATUS_CODE": "CANCL"
+            },
+            {
+              "SHIPPING_ORDER_ID": "1EF59B28EFA60500986685D4E7672656",
+              "SHIPPING_STATUS_CODE": "VRFD"
+            }
+          ],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1EF57781AD9F0B418B357B8E7C0AC3D9",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E0530100007FA23B",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    },
+    {
+      "CUSTOMER_CASE_ID": "UNCANCELLED222222222222222222222",
+      "CUSTOMER_CASE_STATUS_CODE": "WORKING",
+      "CUSTOMER_CASE_NBR": "UNCANCELLED-CASE2222222222222",
+      "serviceRequests": [
+        {
+          "SERVICE_REQUEST_ID": "1EF57781AB5F08819EAF2723086BBF46ttttttsd",
+          "SERVICE_REQUEST_STATUS_CODE": "WORKNG",
+          "serviceOrders": [
+            {
+              "SERVICE_ORDER_ID": "1EF59B28D84D0C00986685D4E7672656dsdsdsdasdasd",
+              "SERVICE_ORDER_STATUS_CODE": "NEW",
+              "SERVICE_ORDER_TYPE_CODE": "OSR",
+              "ASSET_ID": "1EF57781AD9F0B418B357B8E7C0AC3D9",
+              "SERVICE_ORDER_NBR": "3040053185",
+              "serviceOrderLines": [
+                {
+                  "SERVICE_ORDER_LINE_ID": "1EF59B28D84D0C02986685D4E7672656dadasdasd",
+                  "SERVICE_ORDER_LINE_STATUS_CODE": "NEW",
+                  "QUANTITY": 1,
+                  "ACTIVE_IND": "Y",
+                  "VENDOR_ASSET_SKU_NBR": null,
+                  "SERVICE_ORDER_LINE_TYPE_CODE": "PHN",
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-13T12:28:08.525Z",
+                  "UPDATED_BY": "Web",
+                  "UPDATED_DATE": "2024-08-13T12:30:56.575Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-13"
+                }
+              ]
+            }
+          ],
+          "chargeOrders": [
+            {
+              "CHARGE_ORDER_ID": "BBD91D3F196546A2A68D856A427BEDA1dsdasdasa",
+              "CHARGE_ORDER_STATUS_CODE": "NCR",
+              "chargeOrderLines": [
+                {
+                  "CHARGE_ORDER_LINE_ID": "6939670F2B5448078837CA3F1E531A51dsadsadadsad",
+                  "CHARGE_ORDER_LINE_STATUS_CODE": "NCR",
+                  "CHARGE_ORDER_LINE_TYPE_CODE": "SERVICEFEE",
+                  "FEE_AMOUNT": 0,
+                  "TAX_AMOUNT": 0,
+                  "TOTAL_AMOUNT": 0,
+                  "CANCELLATION_REASON_CODE": null,
+                  "CANCELLATION_SUB_REASON_CODE": null,
+                  "CREATED_BY": "Web",
+                  "CREATED_DATE": "2024-08-13T12:30:57.712Z",
+                  "UPDATED_BY": "Node Application",
+                  "UPDATED_DATE": "2024-08-13T12:31:51.692Z",
+                  "BULK_UPDATED_BY": "DAL",
+                  "BULK_UPDATED_DATE": "2024-08-13"
+                }
+              ]
+            }
+          ],
+          "shippingOrders": [
+            {
+              "SHIPPING_ORDER_ID": "1EF59B28EFA60500986685D4E7672656dasdasdaaa",
+              "SHIPPING_STATUS_CODE": "VRFD"
+            }
+          ],
+          "paymentOrders": [],
+          "asset": {
+            "ASSET_ID": "1EF57781AD9F0B418B357B8E7C0AC3D9",
+            "ASSET_STATUS_CODE": "ACTV",
+            "CLIENT_ACCOUNT_ID": "1EF5772F7F68003DA316EF121527B8A7",
+            "PARENT_ASSET_ID": "1EF5772F7F68003AA316EF121527B8A7",
+            "ASSET_CONDITION_CODE": "NEW",
+            "ASSET_CATALOG_ID": "E82C95960B4D4FE4E0530100007FA23B",
+            "MOBILE_DEVICE_NBR": "voltage:fpe:1:enterprise.att@asurion.com||04004497513313123123",
+            "MOBILE_EQUIPMENT_ID": "voltage:fpe:1:enterprise.att@asurion.com||468980489262692312321312321313",
+            "CREATED_BY": "NODE JS",
+            "CREATED_DATE": "2024-08-10T16:24:43.008Z",
+            "UPDATED_BY": "NODE JS",
+            "UPDATED_DATE": "2024-08-10T16:24:43.008Z",
+            "BULK_UPDATED_BY": "DAL",
+            "BULK_UPDATED_DATE": "2024-08-11"
+          }
+        }
+      ]
+    }
+  ]
+}
